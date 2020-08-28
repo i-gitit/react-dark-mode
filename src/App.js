@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import { Navbar, Nav } from 'reactstrap';
 import DarkModeToggle from "react-dark-mode-toggle";
-
+import darkimg from './images/dark.svg';
+import lightimg from './images/light.svg';
 function App() {
 
   const [darkMode, setDarkMode] = React.useState(getInitialMode());
@@ -53,7 +54,12 @@ function App() {
         <h2>Toggle the switch to see some magic✨ happen!</h2>
         <div className='row mt-5'>
           <div className="col-12 offset-md-6 col-md-6">
-            <img src={darkMode ? '../public/assets/dark.svg':'../assets/light.svg'} className="img-fluid" ></img>
+            {
+              darkMode?
+              <img src={darkimg} className="img-fluid" alt="ambiance"></img>
+              :
+              <img src={lightimg} className="img-fluid" alt="ambiance"></img>
+            }
           </div>
         </div>        
       </div>
