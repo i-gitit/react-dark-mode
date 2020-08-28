@@ -2,7 +2,7 @@
   "name": "darkmode",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://i-gitit.github.io/react-dark-mode ",
+  "homepage": "https://i-gitit.github.io/react-dark-mode",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

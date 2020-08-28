@@ -53,8 +53,7 @@ function App() {
         <h2>Toggle the switch to see some magic✨ happen!</h2>
         <div className='row mt-5'>
           <div className="col-12 offset-md-6 col-md-6">
-            <img src={darkMode ? '../assets/dark.svg':'../assets/light.svg'} className="img-fluid" alt="Ambiance SVG" ></img>
-           
+            <img src={darkMode ? '../public/assets/dark.svg':'../assets/light.svg'} className="img-fluid" ></img>
           </div>
         </div>        
       </div>
